@@ -1,0 +1,40 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - link "跳转至内容" [ref=f5e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f5e4]:
+      - generic [ref=f5e5]:
+        - link "竞赛日历 CONTEST CALENDAR" [ref=f5e6] [cursor=pointer]:
+          - /url: "#/"
+          - generic [ref=f5e10]:
+            - text: 竞赛日历
+            - generic [ref=f5e11]: CONTEST CALENDAR
+        - navigation "主导航" [ref=f5e12]:
+          - link "发现比赛" [ref=f5e13] [cursor=pointer]:
+            - /url: "#/"
+          - link "赛事新闻" [ref=f5e14] [cursor=pointer]:
+            - /url: "#/news"
+          - link "我的收藏 1" [ref=f5e15] [cursor=pointer]:
+            - /url: "#/saved"
+            - text: 我的收藏
+            - generic [ref=f5e16]: "1"
+        - generic [ref=f5e17]: 为每一次出发做好准备
+    - generic [ref=f5e19]: 当前为演示预览 · 赛事数据为虚构示例 · 列表状态基准：2026.09.20 · 月历使用实际日期（北京时间）
+    - main [ref=f5e23]
+    - contentinfo [ref=f5e24]:
+      - generic [ref=f5e25]: 竞赛日历 / 让热爱，有迹可循。
+      - generic [ref=f5e26]: 演示版本 · 实际安排请以官方通知为准
+    - status
+  - generic [ref=f5e29]:
+    - generic [ref=f5e30]: "[plugin:vite:import-analysis] Failed to resolve import \"marked\" from \"src/components/MarkdownContent.vue\". Does the file exist?"
+    - generic [ref=f5e31]: /home/cysheper/Code/project/context-list/context-list-webui/src/components/MarkdownContent.vue:3:24
+    - generic [ref=f5e32]: "1 | import { computed } from 'vue' 2 | import { marked } from 'marked' | ^ 3 | import DOMPurify from 'dompurify' 4 |"
+    - generic [ref=f5e33]: at TransformPluginContext._formatLog (file:///home/cysheper/Code/project/context-list/context-list-webui/node_modules/vite/dist/node/chunks/node.js:8393:39) at TransformPluginContext.error (file:///home/cysheper/Code/project/context-list/context-list-webui/node_modules/vite/dist/node/chunks/node.js:8390:14) at normalizeUrl (file:///home/cysheper/Code/project/context-list/context-list-webui/node_modules/vite/dist/node/chunks/node.js:26058:18) at async file:///home/cysheper/Code/project/context-list/context-list-webui/node_modules/vite/dist/node/chunks/node.js:26128:30 at async Promise.all (index 1) at async TransformPluginContext.transform (file:///home/cysheper/Code/project/context-list/context-list-webui/node_modules/vite/dist/node/chunks/node.js:26094:4) at async EnvironmentPluginContainer.transform (file:///home/cysheper/Code/project/context-list/context-list-webui/node_modules/vite/dist/node/chunks/node.js:8172:14) at async loadAndTransform (file:///home/cysheper/Code/project/context-list/context-list-webui/node_modules/vite/dist/node/chunks/node.js:19634:26) at async viteTransformMiddleware (file:///home/cysheper/Code/project/context-list/context-list-webui/node_modules/vite/dist/node/chunks/node.js:19853:20)
+    - generic [ref=f5e34]:
+      - text: Click outside, press Esc key, or fix the code to dismiss.You can also disable this overlay by setting
+      - code [ref=f5e35]: server.hmr.overlay
+      - text: to
+      - code [ref=f5e36]: "false"
+      - text: in
+      - code [ref=f5e37]: vite.config.js
+      - text: .

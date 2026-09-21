@@ -1,0 +1,296 @@
+- generic [ref=e2]:
+  - link "跳转至内容" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "竞赛日历 CONTEST CALENDAR" [ref=e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=e10]:
+          - text: 竞赛日历
+          - generic [ref=e11]: CONTEST CALENDAR
+      - navigation "主导航" [ref=e12]:
+        - link "发现比赛" [ref=e13] [cursor=pointer]:
+          - /url: "#/"
+        - link "我的收藏 0" [ref=e14] [cursor=pointer]:
+          - /url: "#/saved"
+          - text: 我的收藏
+          - generic [ref=e15]: "0"
+      - generic [ref=e16]: 为每一次出发做好准备
+  - generic [ref=e18]: 当前为演示预览 · 赛程、选拔及获奖信息均为虚构示例 · 时间基准：2026.09.20（北京时间）
+  - main [ref=e22]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - paragraph [ref=e34]: CODE. COMPETE. GROW.
+        - heading "下一场挑战，从这里开始。" [level=1] [ref=e35]
+        - paragraph [ref=e36]: 赛程、报名、校内选拔与比赛回顾，一处掌握。
+      - generic [ref=e37]:
+        - generic [ref=e38]: "05"
+        - generic [ref=e39]:
+          - text: 场比赛即将开始
+          - generic [ref=e40]: 保持好奇，准备出发
+    - generic [ref=e41]:
+      - region "比赛列表" [ref=e42]:
+        - generic [ref=e43]:
+          - generic "比赛状态" [ref=e44]:
+            - button "全部比赛 8" [pressed] [ref=e45] [cursor=pointer]:
+              - text: 全部比赛
+              - generic [ref=e46]: "8"
+            - button "即将开始 5" [ref=e47] [cursor=pointer]:
+              - text: 即将开始
+              - generic [ref=e48]: "5"
+            - button "可报名 4" [ref=e49] [cursor=pointer]:
+              - text: 可报名
+              - generic [ref=e50]: "4"
+            - button "往期回顾 2" [ref=e51] [cursor=pointer]:
+              - text: 往期回顾
+              - generic [ref=e52]: "2"
+          - generic [ref=e53]:
+            - searchbox "搜索比赛" [ref=e57]
+            - combobox "筛选赛事系列" [ref=e58]:
+              - option "全部赛事" [selected]
+              - option "CCPC"
+              - option "蓝桥杯"
+              - option "ICPC"
+              - option "码蹄杯"
+              - option "天梯赛"
+        - generic [ref=e59]:
+          - generic [ref=e60]: 共 8 场比赛
+          - generic [ref=e61]: 按比赛时间排序 · 往期倒序
+        - article [ref=e64]:
+          - generic [ref=e65]:
+            - text: "2026"
+            - strong [ref=e66]: "09.20"
+            - generic [ref=e67]: 今天开赛
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]: CCPC
+              - generic [ref=e71]: 报名已截止
+              - generic [ref=e72]: 需校内选拔
+            - heading [level=2] [ref=e73]:
+              - link "CCPC 网络预选赛" [ref=e74] [cursor=pointer]:
+                - /url: "#/contest/ccpc-online-2026"
+            - paragraph [ref=e75]: 通往区域赛的第一站，和队友一起迎接五小时的挑战。
+            - generic [ref=e76]:
+              - generic [ref=e77]: 3 人团队赛
+              - generic [ref=e80]: 线上 · 校内机房
+              - generic [ref=e83]: 难度 8/10
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - text: 建议基础：
+                - strong [ref=e92]: CF 1600–1900
+              - link "查看详情" [ref=e93] [cursor=pointer]:
+                - /url: "#/contest/ccpc-online-2026"
+          - button "收藏CCPC 网络预选赛" [ref=e96] [cursor=pointer]
+        - article [ref=e99]:
+          - generic [ref=e100]:
+            - text: "2026"
+            - strong [ref=e101]: "10.17"
+            - generic [ref=e102]: 27 天后
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]: 蓝桥杯
+              - generic [ref=e106]: 报名中
+            - heading [level=2] [ref=e108]:
+              - link "蓝桥杯 · 秋季程序设计选拔赛" [ref=e109] [cursor=pointer]:
+                - /url: "#/contest/lanqiao-autumn-2026"
+            - paragraph [ref=e110]: 从基础到进阶，用一场比赛检验这个学期的学习成果。
+            - generic [ref=e111]:
+              - generic [ref=e112]: 个人赛
+              - generic [ref=e115]: 线下 · 校内考点
+              - generic [ref=e118]: 难度 4/10
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - text: 建议基础：
+                - strong [ref=e127]: 基础语法 + 常用算法
+              - link "查看详情" [ref=e128] [cursor=pointer]:
+                - /url: "#/contest/lanqiao-autumn-2026"
+          - button "收藏蓝桥杯 · 秋季程序设计选拔赛" [ref=e131] [cursor=pointer]
+        - article [ref=e134]:
+          - generic [ref=e135]:
+            - text: "2026"
+            - strong [ref=e136]: "10.24"
+            - generic [ref=e137]: 34 天后
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]: ICPC
+              - generic [ref=e141]: 报名中
+              - generic [ref=e143]: 需校内选拔
+            - heading [level=2] [ref=e144]:
+              - link "ICPC 亚洲区域赛 · 示例站" [ref=e145] [cursor=pointer]:
+                - /url: "#/contest/icpc-regional-2026"
+            - paragraph [ref=e146]: 三个人，一台电脑。在现场赛里磨合配合，突破自己。
+            - generic [ref=e147]:
+              - generic [ref=e148]: 3 人团队赛
+              - generic [ref=e151]: 线下 · 示例赛区
+              - generic [ref=e154]: 难度 9/10
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - text: 建议基础：
+                - strong [ref=e163]: CF 1800–2100
+              - link "查看详情" [ref=e164] [cursor=pointer]:
+                - /url: "#/contest/icpc-regional-2026"
+          - button "收藏ICPC 亚洲区域赛 · 示例站" [ref=e167] [cursor=pointer]
+        - article [ref=e170]:
+          - generic [ref=e171]:
+            - text: "2026"
+            - strong [ref=e172]: "11.08"
+            - generic [ref=e173]: 49 天后
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - generic [ref=e176]: 码蹄杯
+              - generic [ref=e177]: 报名中
+            - heading [level=2] [ref=e179]:
+              - link "码蹄杯 · 秋季程序设计挑战赛" [ref=e180] [cursor=pointer]:
+                - /url: "#/contest/matibei-autumn-2026"
+            - paragraph [ref=e181]: 对新手友好的练习机会，从写出第一道正确答案开始。
+            - generic [ref=e182]:
+              - generic [ref=e183]: 个人赛
+              - generic [ref=e186]: 线上 · 自主参赛
+              - generic [ref=e189]: 难度 3/10
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - text: 建议基础：
+                - strong [ref=e198]: 掌握基础语法即可尝试
+              - link "查看详情" [ref=e199] [cursor=pointer]:
+                - /url: "#/contest/matibei-autumn-2026"
+          - button "收藏码蹄杯 · 秋季程序设计挑战赛" [ref=e202] [cursor=pointer]
+        - article [ref=e205]:
+          - generic [ref=e206]:
+            - text: "2026"
+            - strong [ref=e207]: "11.21"
+            - generic [ref=e208]: 62 天后
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - generic [ref=e211]: 天梯赛
+              - generic [ref=e212]: 报名中
+            - heading [level=2] [ref=e214]:
+              - link "团体程序设计天梯赛 · 校内选拔" [ref=e215] [cursor=pointer]:
+                - /url: "#/contest/gplt-selection-2026"
+            - paragraph [ref=e216]: 个人独立答题，为学校团队积累每一分力量。
+            - generic [ref=e217]:
+              - generic [ref=e218]: 个人赛
+              - generic [ref=e221]: 线下 · 校内机房
+              - generic [ref=e224]: 难度 6/10
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - text: 建议基础：
+                - strong [ref=e233]: CF 1200–1600
+              - link "查看详情" [ref=e234] [cursor=pointer]:
+                - /url: "#/contest/gplt-selection-2026"
+          - button "收藏团体程序设计天梯赛 · 校内选拔" [ref=e237] [cursor=pointer]
+        - article [ref=e240]:
+          - generic [ref=e241]:
+            - text: 赛程
+            - strong [ref=e242]: 待定
+            - generic [ref=e243]: 时间待定
+          - generic [ref=e244]:
+            - generic [ref=e245]:
+              - generic [ref=e246]: CCPC
+              - generic [ref=e247]: 报名未开放
+              - generic [ref=e248]: 需校内选拔
+            - heading [level=2] [ref=e249]:
+              - link "CCPC 总决赛 · 赛程待公布" [ref=e250] [cursor=pointer]:
+                - /url: "#/contest/ccpc-final-2026"
+            - paragraph [ref=e251]: 关注本赛季的最后一站，具体赛程及晋级安排待公布。
+            - generic [ref=e252]:
+              - generic [ref=e253]: 3 人团队赛
+              - generic [ref=e256]: 地点待公布
+              - generic [ref=e259]: 难度 10/10
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - text: 建议基础：
+                - strong [ref=e268]: CF 2100+，有团队赛经验
+              - link "查看详情" [ref=e269] [cursor=pointer]:
+                - /url: "#/contest/ccpc-final-2026"
+          - button "收藏CCPC 总决赛 · 赛程待公布" [ref=e272] [cursor=pointer]
+        - article [ref=e275]:
+          - generic [ref=e276]:
+            - text: "2026"
+            - strong [ref=e277]: "08.16"
+            - generic [ref=e278]: 已结束
+          - generic [ref=e279]:
+            - generic [ref=e280]:
+              - generic [ref=e281]: ICPC
+              - generic [ref=e282]: 已结束
+            - heading [level=2] [ref=e283]:
+              - link "ICPC 全国邀请赛 · 夏季回顾" [ref=e284] [cursor=pointer]:
+                - /url: "#/contest/icpc-summer-2026"
+            - paragraph [ref=e285]: 把训练带到现场，把成长带回校园。一起回顾这个夏天。
+            - generic [ref=e286]:
+              - generic [ref=e287]: 3 人团队赛
+              - generic [ref=e290]: 线下 · 示例赛区
+              - generic [ref=e293]: 难度 8/10
+            - generic [ref=e300]:
+              - generic [ref=e301]: 本校 2 支队伍 · 1 银 1 铜
+              - link "查看回顾" [ref=e304] [cursor=pointer]:
+                - /url: "#/contest/icpc-summer-2026"
+          - button "收藏ICPC 全国邀请赛 · 夏季回顾" [ref=e307] [cursor=pointer]
+        - article [ref=e310]:
+          - generic [ref=e311]:
+            - text: "2026"
+            - strong [ref=e312]: "06.07"
+            - generic [ref=e313]: 已结束
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - generic [ref=e316]: 蓝桥杯
+              - generic [ref=e317]: 已结束
+            - heading [level=2] [ref=e318]:
+              - link "蓝桥杯 · 全国总决赛回顾" [ref=e319] [cursor=pointer]:
+                - /url: "#/contest/lanqiao-final-2026"
+            - paragraph [ref=e320]: 从省赛走到全国赛，记录每一份坚持与收获。
+            - generic [ref=e321]:
+              - generic [ref=e322]: 个人赛
+              - generic [ref=e325]: 线下 · 示例国赛考点
+              - generic [ref=e328]: 难度 7/10
+            - generic [ref=e335]:
+              - generic [ref=e336]: 本校 3 人参赛 · 一、二、三等奖各 1 人
+              - link "查看回顾" [ref=e339] [cursor=pointer]:
+                - /url: "#/contest/lanqiao-final-2026"
+          - button "收藏蓝桥杯 · 全国总决赛回顾" [ref=e342] [cursor=pointer]
+        - paragraph [ref=e345]: 已展示全部 8 场比赛 · 每一次参赛，都是一次成长
+      - complementary [ref=e346]:
+        - generic [ref=e347]:
+          - heading "别错过报名" [level=2] [ref=e352]
+          - paragraph [ref=e354]: 先记住截止时间，再慢慢准备。
+          - link "蓝桥杯 剩 4 天 蓝桥杯 · 秋季程序设计选拔赛 2026.09.23 18:00 截止" [ref=e355] [cursor=pointer]:
+            - /url: "#/contest/lanqiao-autumn-2026"
+            - generic [ref=e356]:
+              - generic [ref=e357]: 蓝桥杯
+              - generic [ref=e358]: 剩 4 天
+            - heading "蓝桥杯 · 秋季程序设计选拔赛" [level=3] [ref=e359]
+            - paragraph [ref=e360]: 2026.09.23 18:00 截止
+          - link "ICPC 剩 6 天 ICPC 亚洲区域赛 · 示例站 2026.09.25 17:00 截止" [ref=e363] [cursor=pointer]:
+            - /url: "#/contest/icpc-regional-2026"
+            - generic [ref=e364]:
+              - generic [ref=e365]: ICPC
+              - generic [ref=e366]: 剩 6 天
+            - heading "ICPC 亚洲区域赛 · 示例站" [level=3] [ref=e367]
+            - paragraph [ref=e368]: 2026.09.25 17:00 截止
+          - link "码蹄杯 剩 23 天 码蹄杯 · 秋季程序设计挑战赛 2026.10.12 18:00 截止" [ref=e371] [cursor=pointer]:
+            - /url: "#/contest/matibei-autumn-2026"
+            - generic [ref=e372]:
+              - generic [ref=e373]: 码蹄杯
+              - generic [ref=e374]: 剩 23 天
+            - heading "码蹄杯 · 秋季程序设计挑战赛" [level=3] [ref=e375]
+            - paragraph [ref=e376]: 2026.10.12 18:00 截止
+          - generic [ref=e379]: 校内报名可能早于官方截止时间，请留意学校通知。
+        - generic [ref=e383]:
+          - text: FIRST CONTEST?
+          - heading "第一次参加比赛？" [level=2] [ref=e384]
+          - paragraph [ref=e385]: 不用等到“准备好了”。从一场适合自己的比赛开始。
+          - list [ref=e386]:
+            - listitem [ref=e387]:
+              - generic [ref=e388]: "01"
+              - text: 看参赛要求，确认适合的组别
+            - listitem [ref=e389]:
+              - generic [ref=e390]: "02"
+              - text: 留意校内选拔与报名截止
+            - listitem [ref=e391]:
+              - generic [ref=e392]: "03"
+              - text: 做一套往年题，找到自己的节奏
+          - paragraph [ref=e393]: CF 分数仅作参考，不是参赛门槛。
+        - generic [ref=e394]: 少一点寻找，多一点准备。
+  - contentinfo [ref=e29]:
+    - generic [ref=e30]: 竞赛日历 / 让热爱，有迹可循。
+    - generic [ref=e31]: 演示版本 · 实际安排请以官方通知为准
+  - status

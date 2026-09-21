@@ -1,0 +1,28 @@
+- generic [ref=e2]:
+  - link "跳转至内容" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "竞赛日历 CONTEST CALENDAR" [ref=e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=e10]:
+          - text: 竞赛日历
+          - generic [ref=e11]: CONTEST CALENDAR
+      - navigation "主导航" [ref=e12]:
+        - link "发现比赛" [ref=e13] [cursor=pointer]:
+          - /url: "#/"
+        - link "我的收藏 0" [ref=e14] [cursor=pointer]:
+          - /url: "#/saved"
+          - text: 我的收藏
+          - generic [ref=e15]: "0"
+      - generic [ref=e16]: 为每一次出发做好准备
+  - generic [ref=e18]: 当前为演示预览 · 赛程、选拔及获奖信息均为虚构示例 · 时间基准：2026.09.20（北京时间）
+  - main [ref=e22]:
+    - alert [ref=e23]:
+      - heading "比赛信息暂未加载" [level=2] [ref=e26]
+      - paragraph [ref=e27]: 暂时无法获取比赛，请确认后端服务已启动后重试。
+      - button "重新加载" [ref=e28] [cursor=pointer]
+  - contentinfo [ref=e29]:
+    - generic [ref=e30]: 竞赛日历 / 让热爱，有迹可循。
+    - generic [ref=e31]: 演示版本 · 实际安排请以官方通知为准
+  - status

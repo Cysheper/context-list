@@ -1,0 +1,148 @@
+- generic [ref=f7e2]:
+  - link "跳转至内容" [ref=f7e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - link "竞赛日历 CONTEST CALENDAR" [ref=f7e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f7e10]:
+          - text: 竞赛日历
+          - generic [ref=f7e11]: CONTEST CALENDAR
+      - navigation "主导航" [ref=f7e12]:
+        - link "发现比赛" [ref=f7e13] [cursor=pointer]:
+          - /url: "#/"
+        - link "赛事新闻" [ref=f7e14] [cursor=pointer]:
+          - /url: "#/news"
+        - link "我的收藏 1" [ref=f7e15] [cursor=pointer]:
+          - /url: "#/saved"
+          - text: 我的收藏
+          - generic [ref=f7e16]: "1"
+      - generic [ref=f7e17]: 为每一次出发做好准备
+  - generic [ref=f7e19]: 当前为演示预览 · 赛事数据为虚构示例 · 列表状态基准：2026.09.20 · 月历使用实际日期（北京时间）
+  - main [ref=f7e23]:
+    - generic [ref=f7e24]:
+      - generic [ref=f7e25]:
+        - paragraph [ref=f7e26]: STORIES FROM OUR CAMPUS
+        - heading "记录每一份热爱与收获。" [level=1] [ref=f7e27]
+        - paragraph [ref=f7e28]: 获奖喜报、赛场瞬间与备赛故事，看见身边的竞赛力量。
+      - generic [ref=f7e29]:
+        - generic [ref=f7e30]: "04"
+        - generic [ref=f7e31]:
+          - text: 篇校园赛事资讯
+          - generic [ref=f7e32]: 每一段经历，都值得记录
+    - generic [ref=f7e33]:
+      - region "新闻列表" [ref=f7e34]:
+        - generic [ref=f7e35]:
+          - generic "新闻分类" [ref=f7e36]:
+            - button "全部资讯" [pressed] [ref=f7e37] [cursor=pointer]
+            - button "获奖喜报" [ref=f7e38] [cursor=pointer]
+            - button "赛事回顾" [ref=f7e39] [cursor=pointer]
+            - button "备赛动态" [ref=f7e40] [cursor=pointer]
+          - searchbox "搜索新闻" [ref=f7e45]
+        - generic [ref=f7e46]:
+          - generic [ref=f7e47]: 共 4 篇资讯
+          - generic [ref=f7e48]: 按发布时间倒序
+        - article [ref=f7e49]:
+          - link [aria-hidden] [ref=f7e50] [cursor=pointer]:
+            - /url: "#/news/autumn-training"
+            - generic [ref=f7e51]: 示意配图
+          - generic [ref=f7e52]:
+            - generic [ref=f7e53]:
+              - generic [ref=f7e54]: 备赛动态
+              - generic [ref=f7e55]: 校园竞赛
+              - generic [ref=f7e56]: 演示资讯
+            - heading [level=2] [ref=f7e57]:
+              - link "新学期，和队友一起准备下一场比赛" [ref=f7e58] [cursor=pointer]:
+                - /url: "#/news/autumn-training"
+            - paragraph [ref=f7e59]: 从第一次组队到限时模拟，算法协会整理了一份秋季备赛清单，送给正在准备出发的你。
+            - generic [ref=f7e60]:
+              - generic [ref=f7e61]:
+                - time [ref=f7e62]: 2026.09.18
+                - text: · 示例大学 · 算法协会
+              - link "阅读：新学期，和队友一起准备下一场比赛" [ref=f7e63] [cursor=pointer]:
+                - /url: "#/news/autumn-training"
+                - text: 阅读全文
+        - article [ref=f7e66]:
+          - link [aria-hidden] [ref=f7e67] [cursor=pointer]:
+            - /url: "#/news/icpc-summer-recap"
+            - generic [ref=f7e68]: 示意配图
+          - generic [ref=f7e69]:
+            - generic [ref=f7e70]:
+              - generic [ref=f7e71]: 赛事回顾
+              - generic [ref=f7e72]: ICPC
+              - generic [ref=f7e73]: 演示资讯
+            - heading [level=2] [ref=f7e74]:
+              - link "五小时的并肩作战：ICPC 夏季邀请赛圆满收官" [ref=f7e75] [cursor=pointer]:
+                - /url: "#/news/icpc-summer-recap"
+            - paragraph [ref=f7e76]: 两支队伍带着一银一铜回到校园。记录赛场上的思考、配合，以及比赛结束之后的成长。
+            - generic [ref=f7e77]:
+              - generic [ref=f7e78]:
+                - time [ref=f7e79]: 2026.08.18
+                - text: · 示例大学 · 校竞赛队
+              - link "阅读：五小时的并肩作战：ICPC 夏季邀请赛圆满收官" [ref=f7e80] [cursor=pointer]:
+                - /url: "#/news/icpc-summer-recap"
+                - text: 阅读全文
+        - article [ref=f7e83]:
+          - link [aria-hidden] [ref=f7e84] [cursor=pointer]:
+            - /url: "#/news/lanqiao-national-awards"
+            - generic [ref=f7e85]: 示意配图
+          - generic [ref=f7e86]:
+            - generic [ref=f7e87]:
+              - generic [ref=f7e88]: 获奖喜报
+              - generic [ref=f7e89]: 蓝桥杯
+              - generic [ref=f7e90]: 演示资讯
+            - heading [level=2] [ref=f7e91]:
+              - link "喜报！我校学子在蓝桥杯全国总决赛斩获 3 项国奖" [ref=f7e92] [cursor=pointer]:
+                - /url: "#/news/lanqiao-national-awards"
+            - paragraph [ref=f7e93]: 一等奖、二等奖、三等奖各一项。从日常训练到全国赛场，每一份坚持都有了回响。
+            - generic [ref=f7e94]:
+              - generic [ref=f7e95]:
+                - time [ref=f7e96]: 2026.06.10
+                - text: · 示例大学 · 计算机学院
+              - link "阅读：喜报！我校学子在蓝桥杯全国总决赛斩获 3 项国奖" [ref=f7e97] [cursor=pointer]:
+                - /url: "#/news/lanqiao-national-awards"
+                - text: 阅读全文
+        - article [ref=f7e100]:
+          - link [aria-hidden] [ref=f7e101] [cursor=pointer]:
+            - /url: "#/news/spring-campus-recap"
+            - generic [ref=f7e102]: 示意配图
+          - generic [ref=f7e103]:
+            - generic [ref=f7e104]:
+              - generic [ref=f7e105]: 赛事回顾
+              - generic [ref=f7e106]: 校内赛事
+              - generic [ref=f7e107]: 演示资讯
+            - heading [level=2] [ref=f7e108]:
+              - link "从第一行代码出发，春季校园程序设计交流赛落幕" [ref=f7e109] [cursor=pointer]:
+                - /url: "#/news/spring-campus-recap"
+            - paragraph [ref=f7e110]: 一次面向新同学的程序设计体验。有人第一次提交通过，有人找到了志同道合的队友。
+            - generic [ref=f7e111]:
+              - generic [ref=f7e112]:
+                - time [ref=f7e113]: 2026.05.24
+                - text: · 示例大学 · 算法协会
+              - link "阅读：从第一行代码出发，春季校园程序设计交流赛落幕" [ref=f7e114] [cursor=pointer]:
+                - /url: "#/news/spring-campus-recap"
+                - text: 阅读全文
+        - paragraph [ref=f7e117]: 已展示全部 4 篇资讯 · 让热爱，有迹可循
+      - complementary [ref=f7e118]:
+        - generic [ref=f7e119]:
+          - generic [ref=f7e120]: ON CAMPUS
+          - heading "成绩之外，还有故事。" [level=2] [ref=f7e123]
+          - paragraph [ref=f7e124]: 记录奖项，也记录第一次参赛的勇气、并肩作战的队友，以及赛场之外的成长。
+          - generic [ref=f7e125]:
+            - generic [ref=f7e126]: 获奖喜报
+            - strong [ref=f7e127]: 1 篇
+          - generic [ref=f7e128]:
+            - generic [ref=f7e129]: 赛事回顾
+            - strong [ref=f7e130]: 2 篇
+          - generic [ref=f7e131]:
+            - generic [ref=f7e132]: 备赛动态
+            - strong [ref=f7e133]: 1 篇
+        - generic [ref=f7e134]:
+          - heading "关于本栏目" [level=3] [ref=f7e135]
+          - paragraph [ref=f7e138]: 当前为“示例大学”的演示文章，成绩与人物均为虚构；配图为插画，并非真实赛事照片。
+        - link "查看近期比赛" [ref=f7e139] [cursor=pointer]:
+          - /url: "#/"
+  - contentinfo [ref=f7e142]:
+    - generic [ref=f7e143]: 竞赛日历 / 让热爱，有迹可循。
+    - generic [ref=f7e144]: 演示版本 · 实际安排请以官方通知为准
+  - status
