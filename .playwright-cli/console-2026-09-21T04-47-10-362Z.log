@@ -1,0 +1,31 @@
+[  105125ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:5173/@vite/client:1030
+[  166173ms] [WARNING] [Vue warn]: Unhandled error during execution of render function 
+  at <NewsPage key=0 article-id=null > 
+  at <AsyncComponentWrapper key=0 article-id=null > 
+  at <App> @ http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:1803
+[  166173ms] [WARNING] [Vue warn]: Unhandled error during execution of component update 
+  at <AsyncComponentWrapper key=0 article-id=null > 
+  at <App> @ http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:1803
+[  166178ms] RangeError: Invalid time value
+    at Proxy.date (http://127.0.0.1:5173/src/lib/contests.js:17:201)
+    at http://127.0.0.1:5173/src/components/NewsPage.vue?t=1789966196492:230:50
+    at renderList (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:3979:59)
+    at Proxy._sfc_render (http://127.0.0.1:5173/src/components/NewsPage.vue?t=1789966196492:191:69)
+    at renderComponentRoot (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:4881:35)
+    at ReactiveEffect.componentUpdateFn [as fn] (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:5750:41)
+    at ReactiveEffect.run (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:474:16)
+    at setupRenderEffect (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:5821:3)
+    at mountComponent (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:5703:10)
+    at processComponent (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:5683:9)
+[  166386ms] [ERROR] TypeError: Cannot destructure property 'type' of 'vnode' as it is null.
+    at unmount (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:6013:11)
+    at unmountComponent (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:6092:4)
+    at unmount (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:6029:22)
+    at unmountComponent (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:6092:4)
+    at unmount (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:6029:22)
+    at unmountChildren (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:6104:49)
+    at unmount (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:6037:116)
+    at unmountComponent (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:6092:4)
+    at unmount (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:6029:22)
+    at patch (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:5446:4) @ http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:2217
+[  166387ms] [WARNING] [HMR] Something went wrong during Vue component hot-reload. Full reload required. @ http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:2218

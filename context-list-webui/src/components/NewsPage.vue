@@ -45,7 +45,7 @@ function reset() { query.value = ''; category.value = '全部资讯' }
         <div class="list-caption"><span>共 {{ visible.length }} 篇资讯</span><span>按发布时间倒序</span></div>
         <div v-if="!visible.length" class="empty-state"><AppIcon name="search" :size="30" /><h3>没有找到相关资讯</h3><p>换个关键词，或看看其他分类。</p><button class="button" @click="reset">清除筛选</button></div>
         <article v-for="item in visible" :key="item.id" class="news-card">
-          <a :href="`#/news/${item.id}`" class="news-cover" tabindex="-1" aria-hidden="true"><img :src="item.cover" alt="" width="960" height="480" loading="lazy" /><span>示意配图</span></a>
+          <a :href="`#/news/${item.id}`" class="news-cover" tabindex="-1" aria-hidden="true"><img :src="item.cover" alt="" width="960" height="480" loading="lazy" referrerpolicy="no-referrer" /><span>示意配图</span></a>
           <div class="news-card-body"><div class="row-tags"><span class="news-category" :class="{ honor: item.category === '获奖喜报' }">{{ item.category }}</span><span class="series-tag">{{ item.series }}</span><span class="demo-tag">演示资讯</span></div><h2><a :href="`#/news/${item.id}`">{{ item.title }}</a></h2><p class="news-summary">{{ item.summary }}</p><div class="news-card-footer"><span><time :datetime="item.publishedAt">{{ date(item.publishedAt) }}</time> · {{ item.author }}</span><a :href="`#/news/${item.id}`" :aria-label="`阅读：${item.title}`">阅读全文<AppIcon name="arrow" :size="14" /></a></div></div>
         </article>
         <p v-if="visible.length" class="list-end">已展示全部 {{ visible.length }} 篇资讯 · 让热爱，有迹可循</p>

@@ -18,7 +18,7 @@ npm install
 npm run dev
 ```
 
-打开 http://localhost:5173 。Vite 将 `/api` 代理到 `http://127.0.0.1:8080`。`npm run build` 生成 `dist/`；正式部署时需要由服务器将 `/api/` 代理到后端并去掉 `/api` 前缀，Vite 开发代理不包含在静态构建中。
+打开 http://localhost:5173 。前端直接请求 `/get_all_contexts`，不添加前缀。Vite 将 `/get_all_contexts`、`/add_context`、`/change_context`、`/health` 原样代理到 `http://127.0.0.1:8080`。`npm run build` 生成 `dist/`；正式部署时需要由服务器将这些接口路径代理到后端，Vite 开发代理不包含在静态构建中。
 
 ## 页面与交互
 

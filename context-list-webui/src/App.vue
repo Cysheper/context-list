@@ -35,7 +35,7 @@ function toggleBookmark(id) {
 async function load() {
   loading.value = true; error.value = ''
   try {
-    const response = await fetch('/api/get_all_contexts', { signal: AbortSignal.timeout(10000) })
+    const response = await fetch('/get_all_contexts', { signal: AbortSignal.timeout(10000) })
     if (!response.ok) throw new Error('无法读取比赛数据')
     const data = await response.json()
     if (!Array.isArray(data) || data.some(c => !c.id || !c.name)) throw new Error('比赛数据格式不正确')

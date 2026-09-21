@@ -18,6 +18,8 @@ const html = computed(() => {
     }
   })
   fragment.querySelectorAll('img').forEach(img => {
+    // Public image hosts may allow anonymous reads but reject page Referers.
+    img.referrerPolicy = 'no-referrer'
     img.loading = 'lazy'
     img.decoding = 'async'
   })

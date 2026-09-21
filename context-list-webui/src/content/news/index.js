@@ -19,7 +19,7 @@ export const articles = [
     id: 'lanqiao-national-awards', category: '获奖喜报', series: '蓝桥杯',
     title: '东华理工大学在第十七届蓝桥杯全国 大学生软件和信息技术大赛（软件类）国赛中获佳绩',
     summary: '一等奖、二等奖、三等奖各一项。从日常训练到全国赛场，每一份坚持都有了回响。',
-    publishedAt: '2026-06-10T09:00:00+08:00', author: '东华理工大学 · 软件学院',
+    publishedAt: '2026-09-21T09:00:00+08:00', author: '东华理工大学 · 软件学院',
     cover: 'https://cynite.oss-cn-guangzhou.aliyuncs.com/uploads/mmexport1789965246773.jpg', coverAlt: '获奖奖杯插画（示意图，非实拍）',
     contestId: 'lanqiao-final-2026', contestName: '蓝桥杯 · 全国总决赛回顾',
   },
