@@ -29,3 +29,4 @@
     at unmount (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:6029:22)
     at patch (http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:5446:4) @ http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:2217
 [  166387ms] [WARNING] [HMR] Something went wrong during Vue component hot-reload. Full reload required. @ http://127.0.0.1:5173/node_modules/.vite/deps/vue.js?v=1499bb44:2218
+[ 1507575ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:5173/@vite/client:1030
